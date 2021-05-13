@@ -1,10 +1,7 @@
+import React from 'react';
+import Search from '../search/Search';
 
-function App() {
-  return (
-    <>
-      <h1>hello</h1>
-    </>
-  );
+export default function App() {
+  return <Search search="hello" onChange={() => { }} />;
 }
 
-export default App;
