@@ -38,8 +38,5 @@
   },
   "devDependencies": {
     "msw": "^0.28.2"
-  },
-  "files.associations": {
-    "*.css": "scss"
   }
 }
