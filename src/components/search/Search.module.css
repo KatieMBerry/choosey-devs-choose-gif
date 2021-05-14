@@ -1,5 +1,8 @@
 .Search {
     display: block;
     margin: auto;
+    border: #000000 10px solid;
     padding: 1rem;
+    background-color: aliceblue;
+    font-size: 15px;
 }

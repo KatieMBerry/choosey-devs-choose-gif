@@ -3,13 +3,12 @@
 exports[`Giphy component renders a single GIF 1`] = `
 <DocumentFragment>
   <a
-    class="undefined"
+    class="Giphy"
     href="https://giphy.com/gifs/dogs-honey-winnie-the-pooh-3ohc13lGnOGpMHn7zO"
   >
     <figure>
       <img
         alt="winnie the pooh dogs GIF"
-        src="https://media1.giphy.com/media/3ohc13lGnOGpMHn7zO/giphy-downsized-medium.gif?cid=697f7defd7fyrfz51nirurnkx3ydqt7h7y6l42ymo9ie2ksx&rid=giphy-downsized-medium.gif&ct=g"
       />
       <figcaption>
         winnie the pooh dogs GIF

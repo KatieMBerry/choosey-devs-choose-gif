@@ -5,7 +5,7 @@ import styles from './GiphyList.module.css';
 
 const GiphyList = ({ gifs }) => {
     const gifElements = gifs.map(gif => (
-        <li key={gif.title}>
+        <li key={gif.id}>
             <Giphy {...gif} />
         </li>
     ));
@@ -13,13 +13,14 @@ const GiphyList = ({ gifs }) => {
     return (
         <ul data-testid="gifs"
             className={styles.GiphyList}>
-            { gifElements}
+            {gifElements}
         </ul>
     );
 };
 
 GiphyList.propTypes = {
     gifs: PropTypes.arrayOf(PropTypes.shape({
+        id: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
         url: PropTypes.string.isRequired,
         image: PropTypes.string.isRequired

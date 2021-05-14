@@ -3,7 +3,7 @@
 exports[`GiphyList component renders a list of GIFs 1`] = `
 <DocumentFragment>
   <ul
-    class="undefined"
+    class="GiphyList"
     data-testid="gifs"
   />
 </DocumentFragment>
