@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Search.css';
+import styles from './Search.module.css';
 
 const Search = ({ search, onChange }) => (
     <input
-        className={`${styles.Search}`}
+        className={styles.Search}
         type="text"
         placeholder="Search here..."
         value={search}
