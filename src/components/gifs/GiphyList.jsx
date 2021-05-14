@@ -10,9 +10,12 @@ const GiphyList = ({ gifs }) => {
         </li>
     ));
 
-    return <ul className={styles.GiphyList}>
-        {gifElements}
-    </ul>;
+    return (
+        <ul data-testid="gifs"
+            className={`${styles.GiphyList}`}>
+            { gifElements}
+        </ul>
+    );
 };
 
 GiphyList.propTypes = {
