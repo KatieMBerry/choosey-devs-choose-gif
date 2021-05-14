@@ -1,7 +1,12 @@
 .GiphyList {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
     list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: teal;
 
     li {
         margin: auto;

@@ -2,4 +2,6 @@
     display: block;
     margin: auto;
     padding: 1rem;
+    background-color: aliceblue;
+    font-size: 15px;
 }

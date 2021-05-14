@@ -15,7 +15,11 @@ const Giphy = ({ title, url, image }) => (
 Giphy.propTypes = {
     title: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired
+    image: PropTypes.shape({
+        downsized: PropTypes.shape({
+            url: PropTypes.string.isRequired,
+        }).isRequired,
+    }).isRequired
 };
 
 export default Giphy;
