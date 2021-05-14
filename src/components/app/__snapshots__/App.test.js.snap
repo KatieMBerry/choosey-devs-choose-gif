@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders App 1`] = `
+<DocumentFragment>
+  <input
+    placeholder="Search here..."
+    type="text"
+    value="hello"
+  />
+  <ul>
+    <li>
+      <a
+        href="https://giphy.com/gifs/dogs-honey-winnie-the-pooh-3ohc13lGnOGpMHn7zO"
+      >
+        <figure>
+          <img
+            alt="winnie the pooh dogs GIF"
+            src="https://media1.giphy.com/media/3ohc13lGnOGpMHn7zO/giphy-downsized-medium.gif?cid=697f7defd7fyrfz51nirurnkx3ydqt7h7y6l42ymo9ie2ksx&rid=giphy-downsized-medium.gif&ct=g"
+          />
+          <figcaption>
+            winnie the pooh dogs GIF
+          </figcaption>
+        </figure>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://giphy.com/gifs/dogs-honey-winnie-the-pooh-3ohc13lGnOGpMHn7zO"
+      >
+        <figure>
+          <img
+            alt="winnie the pooh dogs GIF"
+            src="https://media1.giphy.com/media/3ohc13lGnOGpMHn7zO/giphy-downsized-medium.gif?cid=697f7defd7fyrfz51nirurnkx3ydqt7h7y6l42ymo9ie2ksx&rid=giphy-downsized-medium.gif&ct=g"
+          />
+          <figcaption>
+            winnie the pooh dogs GIF
+          </figcaption>
+        </figure>
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://giphy.com/gifs/dogs-honey-winnie-the-pooh-3ohc13lGnOGpMHn7zO"
+      >
+        <figure>
+          <img
+            alt="winnie the pooh dogs GIF"
+            src="https://media1.giphy.com/media/3ohc13lGnOGpMHn7zO/giphy-downsized-medium.gif?cid=697f7defd7fyrfz51nirurnkx3ydqt7h7y6l42ymo9ie2ksx&rid=giphy-downsized-medium.gif&ct=g"
+          />
+          <figcaption>
+            winnie the pooh dogs GIF
+          </figcaption>
+        </figure>
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
