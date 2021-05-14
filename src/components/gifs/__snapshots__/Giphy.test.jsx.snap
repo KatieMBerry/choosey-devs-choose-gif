@@ -3,6 +3,7 @@
 exports[`Giphy component renders a single GIF 1`] = `
 <DocumentFragment>
   <a
+    class="undefined"
     href="https://giphy.com/gifs/dogs-honey-winnie-the-pooh-3ohc13lGnOGpMHn7zO"
   >
     <figure>
