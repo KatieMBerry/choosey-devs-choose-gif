@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component renders a Search input 1`] = `
+<DocumentFragment>
+  <input
+    placeholder="Search here..."
+    type="text"
+    value="my_search_query"
+  />
+</DocumentFragment>
+`;
