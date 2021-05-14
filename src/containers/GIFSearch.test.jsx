@@ -3,12 +3,12 @@ import { screen, render, fireEvent, waitFor } from '@testing-library/react';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 import user from '@testing-library/user-event';
-import giphyApiResponse from '../fixtures/giphy.json';
+import giphyApiResponse from '../fixtures/giphyApiResponse.json';
 import { MemoryRouter } from 'react-router-dom';
 import GIFSearch from './GIFSearch';
 
 const server = setupServer(
-    rest.get('https://api.giphy.com/v1/gifs/search?', (req, res, ctx) => {
+    rest.get('https://api.giphy.com/v1/gifs/search', (req, res, ctx) => {
         return res(ctx.json(giphyApiResponse));
     })
 );
@@ -32,9 +32,9 @@ describe('GIFSearch container', () => {
         //         value: 'dogs'
         //     },
         // });
-        user.type(searchInput, 'dogs');
+        user.type(searchInput, 'honey');
 
-        const listOfGifs = await screen.findByTestId('gifs');
+        const listOfGifs = screen.findByTestId('gifs');
 
         return waitFor(() => {
             expect(listOfGifs).not.toBeEmptyDOMElement();
