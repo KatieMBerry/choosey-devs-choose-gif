@@ -1,7 +1,7 @@
 .GiphyList {
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, .5fr);
     align-items: center;
     flex-wrap: wrap;
     background-color: #03060e;
