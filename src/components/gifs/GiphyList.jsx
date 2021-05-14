@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Giphy from './Giphy';
-import styles from './GiphyList.css';
+import styles from './GiphyList.module.css';
 
 const GiphyList = ({ gifs }) => {
     const gifElements = gifs.map(gif => (
@@ -12,7 +12,7 @@ const GiphyList = ({ gifs }) => {
 
     return (
         <ul data-testid="gifs"
-            className={`${styles.GiphyList}`}>
+            className={styles.GiphyList}>
             { gifElements}
         </ul>
     );
@@ -22,7 +22,7 @@ GiphyList.propTypes = {
     gifs: PropTypes.arrayOf(PropTypes.shape({
         title: PropTypes.string.isRequired,
         url: PropTypes.string.isRequired,
-        images: PropTypes.string.isRequired
+        image: PropTypes.string.isRequired
     }))
 };
 

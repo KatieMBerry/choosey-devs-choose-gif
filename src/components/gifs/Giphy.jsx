@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Giphy.css';
+import styles from './Giphy.module.css';
 
-const Giphy = ({ title, url, images }) => (
-    <a className={`${styles.Giphy}`}
+const Giphy = ({ title, url, image }) => (
+    <a className={styles.Giphy}
         href={url}>
         <figure>
-            <img src={images} alt={title} />
+            <img src={image} alt={title} />
             <figcaption>{title}</figcaption>
         </figure>
     </a>
@@ -15,7 +15,7 @@ const Giphy = ({ title, url, images }) => (
 Giphy.propTypes = {
     title: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
-    images: PropTypes.string.isRequired
+    image: PropTypes.string.isRequired
 };
 
 export default Giphy;
